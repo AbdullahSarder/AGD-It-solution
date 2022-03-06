@@ -3,12 +3,156 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap Site</title>
+  <title>About US</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 </head>
 <body>
-<h1>Hello-Bootstrap</h1>
+
+
+<section id="aboutus">
+    <style>
+        .h1, h1 {
+    font-size: 80px;
+    font-weight: 300;
+    letter-spacing: -4px;
+}
+        #aboutus .about-tittle{
+            display: flex;
+            align-items: center;
+        }
+
+    </style>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 about-tittle">
+                <h1>
+                    Hello, we <br> are Godrej.
+                </h1>
+            </div>
+            <div class="col-8">
+                <p>Established in 1897, the Godrej Group has its roots in India's Independence and Swadeshi movement. Our founder, Ardeshir Godrej, lawyer-turned-serial entrepreneur failed with a few ventures, before he struck gold with a locks business.</p>
+    
+                <p>Today, we enjoy the patronage of 1.1 billion consumers globally across consumer goods, real estate, appliances, agriculture and many other businesses. In fact, our geographical footprint extends beyond Earth, with our engines now powering many of India's space missions.</p>
+    
+                <p>With a revenue of over USD 4.1 billion we are growing fast, and have exciting, ambitious aspirations.</p>
+                <p>But for us, it is most important that besides our strong financial performance and innovative, much-loved products, we remain a good company. Approximately 23 per cent of the promoter holding in the Godrej Group is held in trusts that invest in the environment, health and education. We are also bringing together our passion and purpose to make a difference through our Good & Green strategy of 'shared value' to create a more inclusive and greener India.</p>
+                <p>At the heart of all of this, is our people. We take much pride in fostering an inspiring workplace, with an agile and high-performance culture. We are also deeply committed to recognising and valuing diversity across our teams.</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<footer id="footer">
+    <style>
+        #footer{
+            background-color: #525968;
+            font-family: 'Work Sans',sans-serif;
+        }
+        #footer .footerow1{
+            background-image: url('https://cdn.godrej.com/img/svg/footer-map.svg');
+            background-size: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+        }
+        #footer .footerow1content{
+            display: flex;
+            justify-content: center;
+            padding: 200px 0 150px 0;
+             
+        }
+        .footerbutton{
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            color: white;
+            background-color: #1a78e5;
+        }
+        .bi-envelope-fill{
+            margin-right: 8px !important;
+        }
+        .whoweare a,a{
+            display: block;
+            text-decoration: none;
+            color: white;
+        }
+        p{
+            cursor: pointer;
+        }
+        .linebreak{
+            width: 100%;
+            height: 2px;
+            background-color: #1a78e5;
+        }
+
+    </style>
+    <div class="row footerow1">
+        <div class="footerow1content">
+            <div>
+                <h1 class="text-white">Stay Updated</h1>
+                <h4 class="text-white">Sign up to get more information about<br> the latest events and updates.</h4>
+                <button class="footerbutton"><span class=""> <i class=" bi bi-envelope-fill"></i></span>  SHARE YOUR EMAIL ID</button>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2  whoweare">
+                <p>Who We Are</p>
+                <a href="">About</a>
+                <a href="">Our Story</a>
+                <a href="">Group Directors</a>
+                <a href="">Our Trust</a>
+                <a href="">Godrej Archives</a>
+            </div>
+            <div class="col-lg-2">
+                <p>What We Do</p>
+                <a href="">Our Business Verticals</a>
+                <a href="">Our Companies</a>
+
+                <a href="" class="contractus">Contact Us</a>
+            </div>
+            <div class="col-lg-2">
+                <p>Good & Green</p>
+                <a href="">Our Goals</a>
+                <a href="">Volunteering</a>
+                <a href="">Policies</a>
+
+            
+            </div>
+            <div class="col-lg-2"><a href=""> Careers</a></div>
+            <div class="col-lg-2">
+                <p> <a href="">Investors</a></p>
+                <a href="">Godrej Consumer Products</a>
+                <a href="">Godrej Properties</a>
+                <a href="">Godrej Agrovet</a>
+            </div>
+            <div class="col-lg-2">
+                <p>Media</p>
+                <a href="">OPress Releases</a>
+                <a href="">Press Releases</a>
+                <a href="">Media Assets</a>
+            </div>
+
+
+            </div>
+        <div class="linebreak"></div>
+    </div>
+    </div>
+
+</footer>
+
 </body>
 </html>
